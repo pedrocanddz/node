@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .side-form{
+            display: flex;
+            flex-direction: column;
+        }
+        .side-form label{
+            font-weight: bold;
+        }
+        .side-form input{
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+        .side-form input:focus{
+            outline: none;
+            border-bottom: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="side-form">
+            <label for="codigo">Código</label>
+            <input type="text" id="codigo" >
+        </div>
+        <div class="side-form">
+            <label for="descricao">Descrição*</label>
+            <input type="text" id="descricao" required>
+        </div>
+    </div>
+</body>
+</html>

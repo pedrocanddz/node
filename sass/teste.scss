@@ -1,0 +1,15 @@
+:root{
+    --red: red;
+}
+@mixin borda {
+    border-radius: 1em;
+}
+$red : red;
+.pai{
+    background-color: var(--red);
+    @include borda;
+    .filho{
+        background-color: $red;
+        @include borda;
+    }
+}

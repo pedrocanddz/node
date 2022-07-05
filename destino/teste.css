@@ -1,0 +1,14 @@
+:root {
+  --red: red;
+}
+
+.pai {
+  background-color: var(--red);
+  border-radius: 1em;
+}
+.pai .filho {
+  background-color: var(--red);
+  border-radius: 1em;
+}
+
+/*# sourceMappingURL=teste.css.map */
